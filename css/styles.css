@@ -599,3 +599,75 @@ img {
     width: 40px;
     height: 40px;
 }
+
+.email-container {
+    max-width: 453px;
+    height: 80;
+    display: flex;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.email-container-list {
+    display: flex;
+    gap: 24px;
+}
+
+.form-input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.form-input:placeholder-shown {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #2E2F42;
+}
+
+.footer-btn {
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4D5AE5;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-btn-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-btn-icon {
+    display: flex;
+    fill: #FFFFFF;
+}
