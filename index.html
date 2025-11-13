@@ -414,34 +414,53 @@
                     </li>
                 </ul>
             </div>
-            <div class="email-container">
-                <form class="email-form">
-                    <label class="form">
+            <div class="email-container">     
                         <p class="form-text">Subscribe</p>
-                        <ul class="email-container-list">
-                            <li class="email-container-item">
-                    <input class="form-input" type="email" name="email" placeholder="E-mail"/>
-                    </li>
-                    </label>
-                    <li class="email-container-item">
-                    <button class="footer-btn" type="submit">
-                        <ul class="footer-btn-list">
-                            <li>
-                        Subscribe
-                        </li>
-                        <li>
+                        <form class="email-form">
+                            <label class="form">
+                    <input class="form-input" type="email" name="email" placeholder="E-mail"/>     
+                    </label>       
+                    <button class="footer-btn" type="submit">       
+                        <p class="footer-btn-text">Subscribe</p>
                         <svg class="footer-btn-icon" width="24" height="24">
-                            <use class="footer-btn-svg" href="./images/icon.svg#icon-Frame-3" width="24" height="24"></use>
+                            <use class="footer-btn-svg" href="./images/icons.svg#icon-Frame-3" width="24" height="24"></use>
                         </svg>
-                        </li>
-                        </ul>
-                    </button>
-                    </li>
-                    </ul>
+                    </button>            
                 </form>
             </div>
         </div>
     </footer>
+    <div class="backdrop is-open">
+        <div class="modal">
+            <form class="modal-box">
+                <button class="modal-btn" type="button">
+                    <svg class="modal-btn-icon" width="8" height="8">
+                        <use class="modal-icon-item" href="./images/icons.svg#icon-close-black-18dp-2-1" width="8" height="8"></use>
+                    </svg>
+                </button>
+                <p class="modal-text">Leave your contacts and we will call you back</p>
+                <div>
+                    <label>
+                        <div>
+                            <input/>
+                            <svg>
+                                <use></use>
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <label></label>
+                </div>
+                <div>
+                    <label></label>
+                </div>
+                <div>
+                    <label></label>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
