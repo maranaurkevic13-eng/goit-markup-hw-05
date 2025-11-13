@@ -659,24 +659,22 @@ img {
     background-color: #4D5AE5;
     display: flex;
     gap: 16px;
-    cursor: pointer;
+    cursor: pointer;        
+    font-family: 'Roboto', sans-serif;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .footer-btn:hover {
     background-color: #31D0AA;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-btn-text {
-    font-family: 'Roboto', sans-serif;
-    box-shadow: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.04em;      
-    text-align: center;
-    color: #FFFFFF;
-}       
+      
 
 .footer-btn-icon {
     fill: #FFFFFF; 
@@ -719,16 +717,19 @@ img {
     transform: translate(-50%, -50%) scale(1.5);
 }
 
+.modal-box {
+    min-width: 360px;
+}
+
 .modal-btn {
     position: absolute;
     right: 24px;
-    top: 24px;
-    padding-left: auto;
-    border-radius: 50%;
+    top: 24px;     
     width: 24px;
-    height: 24px;
+    height: 24px;   
+    border-radius: 50%;        
     background-color: #E7E9FC;
-    border: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
@@ -738,12 +739,54 @@ img {
 
 .modal-btn-icon {
     fill: #2E2F42;
-}
+}   
 
-.modal-icon-item {
-    margin: 8px;
+.modal-btn:hover .modal-btn-icon {
+    fill: #FFFFFF;
 }
 
 .modal-text {
     margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    padding: 0 24px;
+}
+
+.modal-container {
+    padding: 0 24px;
+}
+
+.modal-text-label {
+    margin-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.name-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 360px;
+    margin-bottom: 8px;
+}
+
+.input-field {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.name-icon {
+    position: absolute;
 }
