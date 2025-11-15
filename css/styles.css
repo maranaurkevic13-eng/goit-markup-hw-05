@@ -906,6 +906,12 @@ textarea::placeholder {
     background-color: #404BBF;
 }
 
+input:checked + label > span {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+
 .checkbox-label {
     font-size: 12px;
     line-height: 1.17;
@@ -926,6 +932,10 @@ textarea::placeholder {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.window-icon {
+
 }
 
 .checkbox-link {
