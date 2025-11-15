@@ -635,6 +635,7 @@ img {
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
+    color: #FFFFFF;
 }
 
 .form-input:placeholder-shown {
@@ -644,6 +645,12 @@ img {
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #2E2F42;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #FFFFFF;
 }
 
 .form-input:placeholder-shown:hover {
@@ -659,7 +666,9 @@ img {
 .footer-btn {
     border-radius: 4px;
     padding: 8px 24px;
-    width: 100%;
+    min-width: 165px;
+    justify-content: center;
+    align-items: center;
     height: 40px;
     background-color: #4D5AE5;
     display: flex;
@@ -673,6 +682,7 @@ img {
     letter-spacing: 0.04em;
     text-align: center;
     color: #FFFFFF;
+    border: none;
 }
 
 .footer-btn:hover {
@@ -688,6 +698,7 @@ img {
 
 .footer-btn-icon {
     fill: #FFFFFF; 
+    margin-left: 16px;
 }
 
 .backdrop {
@@ -733,6 +744,9 @@ img {
 }
 
 .modal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     right: 24px;
     top: 24px;     
@@ -742,17 +756,30 @@ img {
     background-color: #E7E9FC;
     border-color: rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn:hover {
     background-color:#404BBF;
+    border: none;
+}
+
+.modal-btn:focus {
+    background-color: #404BBF;
+    border: none;
 }
 
 .modal-btn-icon {
     fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }   
 
 .modal-btn:hover .modal-btn-icon {
+    fill: #FFFFFF;
+}
+
+.modal-btn:focus .modal-btn-icon {
     fill: #FFFFFF;
 }
 
