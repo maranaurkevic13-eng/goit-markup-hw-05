@@ -927,11 +927,7 @@ input:checked + label > span {
     align-items: center;
     justify-content: center;
     fill: transparent;
-}
-
-.window-icon {
-
-}
+}        
 
 .checkbox-link {
     color: #4d5ae5;
