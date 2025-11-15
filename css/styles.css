@@ -860,12 +860,7 @@ input:focus + .email-icon {
     display: flex;
     flex-direction: column;        
     margin-bottom: 16px;
-}
-
-textarea::placeholder {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;   
-}
+}      
 
 .textarea {
     font-family: 'Roboto', sans-serif;
