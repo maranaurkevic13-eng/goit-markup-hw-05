@@ -630,12 +630,8 @@ img {
     font-weight: 400;
     font-size: 12px;
     line-height: 200%;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    padding-left: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: #FFFFFF;
+    letter-spacing: 0.04em;            
+    color: #FFFFFF;        
 }
 
 .form-input:placeholder-shown {
@@ -665,14 +661,12 @@ img {
 
 .footer-btn {
     border-radius: 4px;
-    padding: 8px 24px;
-    min-width: 165px;
+    min-width: 165px;         
     justify-content: center;
     align-items: center;
     height: 40px;
     background-color: #4D5AE5;
-    display: flex;
-    gap: 16px;
+    display: flex;     
     cursor: pointer;        
     font-family: 'Roboto', sans-serif;
     box-shadow: none;
@@ -954,4 +948,17 @@ input:checked + label > span {
     text-align: center;
     margin-top: 0;   
     margin-left: 119px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
 }
